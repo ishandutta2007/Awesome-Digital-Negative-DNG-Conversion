@@ -1,30 +1,63 @@
-# Awesome-Digital-Negative-DNG-Conversion
+<div align="center">
 
-## Top Digital Negative (DNG) Conversion
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Digital Negative (DNG) Conversion Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+# 📸 Awesome Digital Negative (DNG) Conversion
 
-*Focused on RAW to DNG Conversion, Camera Raw Processing, Universal RAW Formats & Desktop RAW Tools*
+**A comprehensive, curated collection of top SaaS products, desktop editors, and open-source GitHub projects for Camera RAW processing, Digital Negative (DNG) conversion, and universal digital photography archival.**
 
-**Last updated: October 2026**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion?color=green" alt="GitHub issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Digital-Negative-DNG-Conversion/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-This repository tracks notable **commercial applications** and **open-source projects** for **Digital Negative (DNG) Conversion** and RAW file processing. These tools convert proprietary camera RAW formats into the open Adobe DNG standard or provide advanced RAW decoding and development capabilities.
+<p align="center">
+  <em>Everything you need for non-destructive camera RAW workflows, demosaicing, deep optical corrections, batch conversion, and vendor-agnostic DNG preservation.</em>
+</p>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-## Table of Contents
+</div>
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS & Commercial Platforms](#saas--commercial-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 📑 Table of Contents
 
-## Sector Overview & Market Dynamics
+- [🔍 Overview & Scope](#-overview--scope)
+- [📈 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Commercial Platforms](#-saas--commercial-platforms)
+- [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
+
+---
+
+## 🔍 Overview & Scope
+
+Proprietary camera sensor outputs (Canon `.CR2`/`.CR3`, Nikon `.NEF`, Sony `.ARW`, Fujifilm `.RAF`, Panasonic `.RW2`) store uncompressed raw sensor measurements alongside camera metadata. To prevent proprietary file format obsolescence and ensure cross-platform longevity, **Adobe Digital Negative (DNG)** was introduced as an open standard for raw digital camera files.
+
+This knowledge base tracks:
+- 🚀 **High-performance RAW converters**: Converting proprietary sensor formats directly to standard or linear DNG.
+- 🔬 **Demosaicing & AI Optical Processing**: De-noising, lens profile corrections, chromatic aberration correction, and dynamic range preservation.
+- 🏛️ **Digital Archival Pipelines**: Tools maintaining metadata fidelity (IPTC, EXIF, XMP) for long-term museum and professional photo collections.
+- 💻 **SDKs, Scripting Wrappers & Decoders**: C++, Python, and Rust libraries enabling custom automated image processing.
+
+---
+
+## 📈 Sector Overview & Market Dynamics
 
 The global photo editing and RAW image processing software market is estimated at **$14.16 billion to $18.31 billion in 2025/2026**, expanding at a ~9.8% to 10.1% CAGR toward over $37 billion by the mid-2030s, with dedicated RAW processing anchoring the high-value prosumer and professional desktop segment (~$1.2 billion standalone valuation). Market dynamics represent a **moderately concentrated, tiered market structure**: top-tier incumbents (Adobe and Canva/Affinity) dominate scale and cloud distribution, while specialized high-fidelity conversion and optical-correction suites (DxO, Capture One) hold resilient, defensible niche moats among studio professionals, complemented by a robust open-source library and converter ecosystem.
 
-## SaaS & Commercial Platforms
+---
+
+## 💼 SaaS & Commercial Platforms
 
 | Platform | Pricing | Free Tier / Trial Limits | Company Scale (Revenue / Valuation) | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -39,7 +72,9 @@ The global photo editing and RAW image processing software market is estimated a
 | **[FastRawViewer](https://www.fastrawviewer.com/)** | $30.00 one-time perpetual license | 30-day free trial (Fully functional without watermarks, extends to 60 days for v1 upgraders) | ~$1M - $3M Annual Revenue (Independent / Bootstrapped) | High-speed RAW culling and technical analysis viewer displaying true RAW histograms and embedded DNG metadata. |
 | **[Iridient Developer](https://www.iridientdigital.com/)** | $119.99 one-time perpetual license | Free trial / demo mode (Unlimited duration, full feature access, all exported images contain a watermark) | ~$500K - $1.5M Annual Revenue (Independent / Boutique) | Acclaimed macOS RAW image developer praised for demosaicing precision and flexible DNG handling. |
 
-## Open-Source GitHub Projects
+---
+
+## 🛠️ Open-Source GitHub Projects
 
 | Repository | Stars | Description |
 | :--- | :--- | :--- |
@@ -61,20 +96,45 @@ The global photo editing and RAW image processing software market is estimated a
 | **[RethinkRAW](https://github.com/ncruces/RethinkRAW)** | [![Stars](https://img.shields.io/github/stars/ncruces/RethinkRAW?style=social&color=white)](https://github.com/ncruces/RethinkRAW/stargazers) | Fast, responsive personal RAW photo organizer and editor powered by Adobe DNG Converter. |
 | **[dcraw.js](https://github.com/zfedoran/dcraw.js)** | [![Stars](https://img.shields.io/github/stars/zfedoran/dcraw.js?style=social&color=white)](https://github.com/zfedoran/dcraw.js/stargazers) | WebAssembly / JavaScript port of dcraw allowing client-side RAW and DNG decoding in web browsers and Node.js. |
 
-## How to Contribute
+---
 
-1. Fork the repo.
-2. Add/edit entries in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Digital-Negative-DNG-Conversion/README.md).
-3. Include: name, link, specific pricing, free tier/trial details, and description.
-4. Submit PR with a short explanation.
+## 🤝 How to Contribute
 
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Camera RAW support varies by tool and camera model. Always verify compatibility with your specific camera files. DNG is an open standard, but conversion quality and feature support differ between applications. This list is not professional archival or photography advice.
+Contributions are welcome and appreciated! To maintain high resource quality:
+1. 🍴 **Fork the repo** to your personal GitHub account.
+2. ✍️ **Add or edit entries** in [README.md](file:///C:/Users/ishan/Documents/Projects/Awesome-Digital-Negative-DNG-Conversion/README.md).
+3. 📋 **Include complete data**: tool name, canonical link, specific entry-level tier pricing, explicit free tier or trial duration/limits, and a factual 1–2 sentence description.
+4. 🚀 **Submit a Pull Request** describing your additions and changes.
 
 ---
 
-**Made for photographers, digital archivists, and open-source imaging advocates.**
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using this resource! Maintaining curated, high-quality open-source guides takes continuous research and effort.
+
+If you find this repository helpful for your projects, digital photography, or archival workflow, please consider:
+- ⭐ **Starring this repository** to show your appreciation and help others discover it.
+- 🔀 **Forking and sharing** it with your developer, photographer, or archivist communities.
+- ☕ **Buying a coffee & sponsoring ongoing maintenance** via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is deeply appreciated and directly helps keep this project accurate, independent, and up to date!
+
+---
+
+##  Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Digital-Negative-DNG-Conversion&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Digital-Negative-DNG-Conversion&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This repository is a **community-curated** reference list and does not constitute an endorsement of any commercial product or vendor.
+- Camera RAW file support varies significantly across different camera models and sensor revisions. Always verify compatibility with your specific hardware.
+- DNG is an open specification published by Adobe Systems Incorporated; conversion fidelity, metadata preservation, and lens profile support depend on each application's internal demosaicing engine.
+
+---
+
+<div align="center">
+  <b>Built with ❤️ for photographers, digital archivists, and open-source imaging advocates worldwide.</b>
+</div>
